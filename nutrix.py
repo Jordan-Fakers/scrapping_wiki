@@ -10,6 +10,7 @@ page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
 
 def insertInBdd(values):
+    print(values)
     mybdd= mysql.connector.connect(
         host='localhost',
         user='root',
@@ -20,9 +21,62 @@ def insertInBdd(values):
     val = values
     sql = "INSERT INTO articles (title,image,content,date) values (%s,%s,%s,%s)"
 
-    mycursor.executemany(sql,val)
+    mycursor.execute(sql,val)
     mybdd.commit()
     return str(mycursor) + "nouvelle entree"
+
+
+def getArticle():
+    url='https://wikileaks.org'
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    article_main = soup.find_all('li', class_="tile")
+
+    article_titles = []
+    article_dates = []
+    article_contents = []
+    article_images = []
+    articles = [article_titles,article_images,article_contents,article_dates]
+    
+
+    for article in article_main:
+        article_title = article.h2.text
+        article_img ="http://wikileaks.com" + article.img.attrs['src']
+        article_date = article.find('div',class_='timestamp').text
+        article_content = article.p.text
+
+        # article_titles.append(article_title)
+        # print(article_titles)
+        # # for liste in article_titles:
+        # #     insertInBdd([liste])
+        # article_dates.append(article_date)
+        # # insertInBdd([article_dates])
+        # article_contents.append(article_content)
+        # # insertInBdd([article_contents])
+        # article_images.append(article_img)
+        
+        insertInBdd([article_title,article_img,article_content, article_date])
+
+    # for value in articles:
+    #     saveValues = articles
+    #     insertInBdd([saveValues])
+
+    #print(articles)
+        # print(article_images)
+        # print(article_contents)
+        # print(article_dates)
+
+getArticle()
+
+
+# CREATE TABLE articles (
+#   id TINYINT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
+#   title VARCHAR(250) NOT NULL,
+#   image VARCHAR(250) NOT NULL,
+#   content VARCHAR(250) NOT NULL,
+#   date VARCHAR(255) NOT NULL,
+#   PRIMARY KEY (id)
+# );
 # def recupTitre():
 #     listeTitle = []
 #     listeDate = []
@@ -58,50 +112,3 @@ def insertInBdd(values):
 # recupTitre()
 
 #print('search the latest articles')
-
-def getArticle():
-    url='https://wikileaks.org'
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    article_main = soup.find_all('li', class_="tile")
-
-    article_titles = []
-    article_dates = []
-    article_contents = []
-    article_images = []
-    
-
-    for article in article_main:
-        article_title = article.h2.text
-        article_img = article.img.attrs['src']
-        # article_img ="http://wikileaks.com" + article.img.attrs['src']
-        article_date = article.find('div',class_='timestamp').text
-        article_content = article.p.text
-
-        article_titles.append(article_title)
-        # for liste in article_titles:
-        #     insertInBdd([liste])
-        article_dates.append(article_date)
-        # insertInBdd([article_dates])
-        article_contents.append(article_content)
-        # insertInBdd([article_contents])
-        article_images.append(article_img)
-        # insertInBdd([article_images])
-        insertInBdd([article_titles],[article_dates],[article_contents],[article_images])
-
-        print(article_titles)
-        print(article_images)
-        print(article_contents)
-        print(article_dates)
-
-getArticle()
-
-
-# CREATE TABLE articles (
-#   id TINYINT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
-#   title VARCHAR(250) NOT NULL,
-#   image VARCHAR(250) NOT NULL,
-#   content VARCHAR(250) NOT NULL,
-#   date VARCHAR(255) NOT NULL,
-#   PRIMARY KEY (id)
-# );

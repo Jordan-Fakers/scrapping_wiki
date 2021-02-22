@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.siteTitle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.articlesImages{
+    height: 22.5rem;
+    width: 15rem;
+}

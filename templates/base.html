@@ -1,0 +1,25 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+
+<body>
+    <h1 style="text-align: center; display: flex; justify-content: center;"> Scrapper Wikileaks </h1>
+
+    <div class="mainContainer" style="display: flex;flex-direction:column; justify-content: space-around;">
+        <div class='articleContainer' style='display: flex; flex-direction: column;'>
+            <img class="articleImages" src="" alt="" style="height: 22.5rem; width: 15rem;">
+            <h4 class="articleTitres"> </h4>
+            <p class="snippets"> </p>
+            <p class="articleDates"> </p>
+        </div>
+    </div>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+
+</html>

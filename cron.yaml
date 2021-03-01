@@ -1,0 +1,7 @@
+cron :
+- description: "daily summary job"
+  url: /tasks/summary
+  schedule: every 2 hours
+- description: "monday morning mailout"
+  url: /mail/weekly
+  schedule: every monday 09:00

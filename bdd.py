@@ -2,7 +2,7 @@
 import mysql.connector
 
 
-mybdd= mysql.connector.connect(
+mybdd = mysql.connector.connect(
     host='localhost',
     user='root',
     password='Legalcy97.1',

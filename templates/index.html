@@ -2,26 +2,24 @@
 {% extends "base.html" %}
 
 {% block head %} 
+{{ super()}}
 {% endblock %}
 
-
-{% block body %} 
-    <h1 style="text-align: center; display: flex; justify-content: center;"> Scrapper Wikileaks </h1>
-
-    <div class="mainContainer" style="display: flex;flex-direction:column; justify-content: space-around;">
-        <div class='articleContainer' style='display: flex; flex-direction: column;'>
-            <div class="images" >
-                <img class="articleImages"src="" alt="" style="height: 22.5rem; width: 15rem;">
-            </div>
-            <div class="title">
-                <h4 class="articleTitre"> </h4>
-            </div>
-            <div class="content">
-                <p class="snippet"> </p>
-            </div>
-            <div class="date" >
-                <p class="articleDate"> </p>
-            </div>
-        </div>
+{% block body %}
+{% block header %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+<div class="mainContainer" style="display: flex;flex-direction:column; justify-content: space-around;">
+    <div class='articleContainer' style='display: flex; flex-direction: column;'>
+        <img class="articleImages" src="" alt="" style="height: 22.5rem; width: 15rem;">
+        <h4 class="articleTitres"> </h4>
+        <p class="snippets"> </p>
+        <p class="articleDates"> </p>
     </div>
+</div>
+{% endblock %}
+{% block footer %}
+    {{ super() }}
+{% endblock %}
 {% endblock %}

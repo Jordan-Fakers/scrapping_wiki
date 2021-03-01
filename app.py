@@ -2,13 +2,15 @@
 
 from flask import Flask,render_template,url_for,request,redirect,jsonify
 import logging
+import datetime
+import locale
 from bdd import mybdd
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('index.html')
 
 @app.route('/wiki')
 def wiki():
@@ -16,13 +18,17 @@ def wiki():
     cursor = mybdd.cursor(dictionary=True)
     sql = "SELECT * FROM articles" 
     cursor.execute(sql)
+    app.logger.info('%s Database successfully connected')
     for res in cursor:
         result_dict.append({'id':res['id'],'title':res['title'], 'images':res['image'], 'content':res['content'], 'date':res['date']})
     # results = cursor.fetchall()
     app.logger.info('%s dictonnary successfully created')
     return jsonify(result_dict)
     # return render_template('index.html', len=len(results), results=results)
-    app.logger.info('%s Database successfully connected')
+    
+
+@app.route('/mail')
+def mailing():
 
 
 

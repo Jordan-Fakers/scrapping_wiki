@@ -1,7 +1,7 @@
-const api_url = "http://localhost:5000/wiki"; 
+let api_url = "http://localhost:5000/wiki"; 
 
 async function getData(url){
-    const response = await fetch(url);
+    const response =  await fetch(url);
     let data = await response.json();
     console.log(data[0]);
     return data

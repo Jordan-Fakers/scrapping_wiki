@@ -10,12 +10,13 @@
     {{ super() }}
 {% endblock %}
 {% block content %}
-<div class="mainContainer" style="display: flex;flex-direction:column; justify-content: space-around;">
-    <div class='articleContainer' style='display: flex; flex-direction: column;'>
-        <img class="articleImages" src="" alt="" style="height: 22.5rem; width: 15rem;">
-        <h4 class="articleTitres"> </h4>
-        <p class="snippets"> </p>
-        <p class="articleDates"> </p>
+{% for result in range len(results) %}
+<div class="mainContainer">
+    <div class='articleContainer'>
+        <img class="articleImages" src="{{result[2]}}" alt="" >
+        <h4 class="articleTitres"> {{result[1]}}</h4>
+        <p class="snippets">{{ result[3]}}</p>
+        <p class="articleDates"> {{result[4]}}</p>
     </div>
 </div>
 {% endblock %}

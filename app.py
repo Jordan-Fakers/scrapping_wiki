@@ -19,16 +19,16 @@ def wiki():
     sql = "SELECT * FROM articles" 
     cursor.execute(sql)
     app.logger.info('%s Database successfully connected')
-    for res in cursor:
-        result_dict.append({'id':res['id'],'title':res['title'], 'images':res['image'], 'content':res['content'], 'date':res['date']})
-    # results = cursor.fetchall()
-    app.logger.info('%s dictonnary successfully created')
-    return jsonify(result_dict)
-    # return render_template('index.html', len=len(results), results=results)
+    # for res in cursor:
+    #     result_dict.append({'id':res['id'],'title':res['title'], 'images':res['image'], 'content':res['content'], 'date':res['date']})
+    results = cursor.fetchall()
+    app.logger.info('%s database successfully filled')
+    # return jsonify(result_dict)
+    return render_template('index.html', len=len(results), results=results)
     
 
-@app.route('/mail')
-def mailing():
+# @app.route('/mail')
+# def mailing():
 
 
 

@@ -1,0 +1,492 @@
+2021-03-01 22:54:23,813 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,869 - root - MainThread - end of insertion
+2021-03-01 22:54:23,869 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,873 - root - MainThread - end of insertion
+2021-03-01 22:54:23,874 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,876 - root - MainThread - end of insertion
+2021-03-01 22:54:23,876 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,878 - root - MainThread - end of insertion
+2021-03-01 22:54:23,879 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,880 - root - MainThread - end of insertion
+2021-03-01 22:54:23,881 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,882 - root - MainThread - end of insertion
+2021-03-01 22:54:23,882 - root - MainThread - insert into database: start
+2021-03-01 22:54:23,883 - root - MainThread - end of insertion
+2021-03-01 22:54:23,899 - werkzeug - MainThread -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-03-01 22:54:23,899 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 22:54:24,516 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,529 - root - MainThread - end of insertion
+2021-03-01 22:54:24,529 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,532 - root - MainThread - end of insertion
+2021-03-01 22:54:24,532 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,536 - root - MainThread - end of insertion
+2021-03-01 22:54:24,536 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,539 - root - MainThread - end of insertion
+2021-03-01 22:54:24,539 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,540 - root - MainThread - end of insertion
+2021-03-01 22:54:24,540 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,542 - root - MainThread - end of insertion
+2021-03-01 22:54:24,542 - root - MainThread - insert into database: start
+2021-03-01 22:54:24,544 - root - MainThread - end of insertion
+2021-03-01 22:54:24,556 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 22:54:24,578 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 22:54:30,788 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 22:54:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 22:54:30,938 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 22:54:30] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 22:54:30,939 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 22:54:30] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 22:54:30,940 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 22:54:30] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 22:54:31,462 - werkzeug - Thread-6 - 127.0.0.1 - - [01/Mar/2021 22:54:31] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 22:54:31,774 - werkzeug - Thread-7 - 127.0.0.1 - - [01/Mar/2021 22:54:31] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 22:54:32,184 - werkzeug - Thread-8 - 127.0.0.1 - - [01/Mar/2021 22:54:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 22:55:43,705 - werkzeug - Thread-9 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 22:55:43,753 - werkzeug - Thread-10 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 22:55:43,769 - werkzeug - Thread-12 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 22:55:43,770 - werkzeug - Thread-11 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 22:55:43,814 - werkzeug - Thread-13 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 22:55:43,845 - werkzeug - Thread-14 - 127.0.0.1 - - [01/Mar/2021 22:55:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 22:55:44,063 - werkzeug - Thread-15 - 127.0.0.1 - - [01/Mar/2021 22:55:44] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 22:56:27,953 - werkzeug - Thread-16 - 127.0.0.1 - - [01/Mar/2021 22:56:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 22:56:27,999 - werkzeug - Thread-17 - 127.0.0.1 - - [01/Mar/2021 22:56:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-03-01 22:56:28,003 - werkzeug - Thread-18 - 127.0.0.1 - - [01/Mar/2021 22:56:28] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-03-01 22:56:28,049 - app - Thread-19 - %s Database successfully connected
+2021-03-01 22:56:28,050 - app - Thread-19 - %s database successfully filled
+2021-03-01 22:56:28,053 - werkzeug - Thread-19 - 127.0.0.1 - - [01/Mar/2021 22:56:28] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 22:58:11,402 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 22:58:11,448 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 22:58:12,020 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,031 - root - MainThread - end of insertion
+2021-03-01 22:58:12,031 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,035 - root - MainThread - end of insertion
+2021-03-01 22:58:12,036 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,038 - root - MainThread - end of insertion
+2021-03-01 22:58:12,038 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,041 - root - MainThread - end of insertion
+2021-03-01 22:58:12,041 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,043 - root - MainThread - end of insertion
+2021-03-01 22:58:12,043 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,045 - root - MainThread - end of insertion
+2021-03-01 22:58:12,046 - root - MainThread - insert into database: start
+2021-03-01 22:58:12,047 - root - MainThread - end of insertion
+2021-03-01 22:58:12,065 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 22:58:12,081 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 22:58:13,302 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 22:58:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 22:58:13,372 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 22:58:13] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+2021-03-01 22:58:13,372 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 22:58:13] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-03-01 22:58:13,402 - app - Thread-5 - %s Database successfully connected
+2021-03-01 22:58:13,404 - app - Thread-5 - %s database successfully filled
+2021-03-01 22:58:13,406 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 22:58:13] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 22:58:57,967 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 22:58:58,026 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 22:58:58,563 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,575 - root - MainThread - end of insertion
+2021-03-01 22:58:58,575 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,578 - root - MainThread - end of insertion
+2021-03-01 22:58:58,578 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,580 - root - MainThread - end of insertion
+2021-03-01 22:58:58,580 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,582 - root - MainThread - end of insertion
+2021-03-01 22:58:58,582 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,585 - root - MainThread - end of insertion
+2021-03-01 22:58:58,585 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,587 - root - MainThread - end of insertion
+2021-03-01 22:58:58,587 - root - MainThread - insert into database: start
+2021-03-01 22:58:58,588 - root - MainThread - end of insertion
+2021-03-01 22:58:58,600 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 22:58:58,612 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 22:59:22,574 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,585 - root - MainThread - end of insertion
+2021-03-01 22:59:22,585 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,589 - root - MainThread - end of insertion
+2021-03-01 22:59:22,589 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,591 - root - MainThread - end of insertion
+2021-03-01 22:59:22,592 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,594 - root - MainThread - end of insertion
+2021-03-01 22:59:22,594 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,596 - root - MainThread - end of insertion
+2021-03-01 22:59:22,596 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,599 - root - MainThread - end of insertion
+2021-03-01 22:59:22,599 - root - MainThread - insert into database: start
+2021-03-01 22:59:22,601 - root - MainThread - end of insertion
+2021-03-01 22:59:22,616 - werkzeug - MainThread -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-03-01 22:59:22,616 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 22:59:23,224 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,239 - root - MainThread - end of insertion
+2021-03-01 22:59:23,240 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,241 - root - MainThread - end of insertion
+2021-03-01 22:59:23,241 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,244 - root - MainThread - end of insertion
+2021-03-01 22:59:23,245 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,247 - root - MainThread - end of insertion
+2021-03-01 22:59:23,247 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,248 - root - MainThread - end of insertion
+2021-03-01 22:59:23,249 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,250 - root - MainThread - end of insertion
+2021-03-01 22:59:23,250 - root - MainThread - insert into database: start
+2021-03-01 22:59:23,252 - root - MainThread - end of insertion
+2021-03-01 22:59:23,265 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 22:59:23,284 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 22:59:35,373 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 22:59:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 22:59:35,426 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 22:59:35] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+2021-03-01 22:59:35,426 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 22:59:35] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-03-01 22:59:35,439 - app - Thread-5 - %s Database successfully connected
+2021-03-01 22:59:35,441 - app - Thread-5 - %s database successfully filled
+2021-03-01 22:59:35,443 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 22:59:35] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 23:00:49,429 - werkzeug - Thread-6 - 127.0.0.1 - - [01/Mar/2021 23:00:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 23:00:49,464 - werkzeug - Thread-8 - 127.0.0.1 - - [01/Mar/2021 23:00:49] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-03-01 23:00:49,465 - werkzeug - Thread-7 - 127.0.0.1 - - [01/Mar/2021 23:00:49] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+2021-03-01 23:00:49,475 - app - Thread-9 - %s Database successfully connected
+2021-03-01 23:00:49,478 - app - Thread-9 - %s database successfully filled
+2021-03-01 23:00:49,493 - werkzeug - Thread-9 - 127.0.0.1 - - [01/Mar/2021 23:00:49] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 23:01:40,727 - werkzeug - Thread-10 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:01:40,777 - werkzeug - Thread-11 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:01:40,787 - werkzeug - Thread-12 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:01:40,788 - werkzeug - Thread-13 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:01:40,830 - werkzeug - Thread-14 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:01:40,870 - werkzeug - Thread-15 - 127.0.0.1 - - [01/Mar/2021 23:01:40] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:01:41,066 - werkzeug - Thread-16 - 127.0.0.1 - - [01/Mar/2021 23:01:41] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,312 - werkzeug - Thread-17 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:03:00,358 - werkzeug - Thread-18 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,358 - werkzeug - Thread-20 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,359 - werkzeug - Thread-19 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,442 - werkzeug - Thread-21 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,450 - werkzeug - Thread-22 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:03:00,628 - werkzeug - Thread-23 - 127.0.0.1 - - [01/Mar/2021 23:03:00] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,298 - werkzeug - Thread-24 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:03:01,337 - werkzeug - Thread-25 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,338 - werkzeug - Thread-27 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,338 - werkzeug - Thread-26 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,381 - werkzeug - Thread-28 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,411 - werkzeug - Thread-29 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:01,591 - werkzeug - Thread-30 - 127.0.0.1 - - [01/Mar/2021 23:03:01] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:36,786 - werkzeug - Thread-31 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:03:36,827 - werkzeug - Thread-32 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:03:36,828 - werkzeug - Thread-33 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:36,831 - werkzeug - Thread-34 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:03:36,906 - werkzeug - Thread-35 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:03:36,911 - werkzeug - Thread-36 - 127.0.0.1 - - [01/Mar/2021 23:03:36] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:03:37,097 - werkzeug - Thread-37 - 127.0.0.1 - - [01/Mar/2021 23:03:37] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:04:00,876 - werkzeug - Thread-38 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:04:00,920 - werkzeug - Thread-39 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:04:00,921 - werkzeug - Thread-40 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:04:00,921 - werkzeug - Thread-41 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:04:00,963 - werkzeug - Thread-42 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:04:00,999 - werkzeug - Thread-43 - 127.0.0.1 - - [01/Mar/2021 23:04:00] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:04:01,198 - werkzeug - Thread-44 - 127.0.0.1 - - [01/Mar/2021 23:04:01] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,013 - werkzeug - Thread-45 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:04:43,055 - werkzeug - Thread-46 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,055 - werkzeug - Thread-47 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,055 - werkzeug - Thread-48 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,099 - werkzeug - Thread-49 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,135 - werkzeug - Thread-50 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:04:43,333 - werkzeug - Thread-51 - 127.0.0.1 - - [01/Mar/2021 23:04:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,373 - werkzeug - Thread-52 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:05:09,415 - werkzeug - Thread-55 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,416 - werkzeug - Thread-54 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,417 - werkzeug - Thread-53 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,456 - werkzeug - Thread-56 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,490 - werkzeug - Thread-57 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:05:09,677 - werkzeug - Thread-58 - 127.0.0.1 - - [01/Mar/2021 23:05:09] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:09:56,673 - werkzeug - Thread-59 - 127.0.0.1 - - [01/Mar/2021 23:09:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 23:09:57,092 - app - Thread-60 - %s Database successfully connected
+2021-03-01 23:09:57,094 - app - Thread-60 - %s database successfully filled
+2021-03-01 23:09:57,116 - werkzeug - Thread-60 - 127.0.0.1 - - [01/Mar/2021 23:09:57] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 23:10:39,779 - werkzeug - Thread-61 - 127.0.0.1 - - [01/Mar/2021 23:10:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 23:10:39,826 - werkzeug - Thread-63 - 127.0.0.1 - - [01/Mar/2021 23:10:39] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-03-01 23:10:39,826 - werkzeug - Thread-62 - 127.0.0.1 - - [01/Mar/2021 23:10:39] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+2021-03-01 23:10:39,845 - app - Thread-64 - %s Database successfully connected
+2021-03-01 23:10:39,847 - app - Thread-64 - %s database successfully filled
+2021-03-01 23:10:39,863 - werkzeug - Thread-64 - 127.0.0.1 - - [01/Mar/2021 23:10:39] "[37mGET /wiki HTTP/1.1[0m" 200 -
+2021-03-01 23:15:10,553 - werkzeug - Thread-65 - 127.0.0.1 - - [01/Mar/2021 23:15:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:15:10,604 - werkzeug - Thread-66 - 127.0.0.1 - - [01/Mar/2021 23:15:10] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:15:10,607 - werkzeug - Thread-68 - 127.0.0.1 - - [01/Mar/2021 23:15:10] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:15:10,608 - werkzeug - Thread-67 - 127.0.0.1 - - [01/Mar/2021 23:15:10] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:15:10,701 - werkzeug - Thread-69 - 127.0.0.1 - - [01/Mar/2021 23:15:10] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:15:11,097 - werkzeug - Thread-70 - 127.0.0.1 - - [01/Mar/2021 23:15:11] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:15:11,467 - werkzeug - Thread-71 - 127.0.0.1 - - [01/Mar/2021 23:15:11] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:19:06,642 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 23:19:06,781 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 23:19:07,341 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,357 - root - MainThread - end of insertion
+2021-03-01 23:19:07,358 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,360 - root - MainThread - end of insertion
+2021-03-01 23:19:07,361 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,364 - root - MainThread - end of insertion
+2021-03-01 23:19:07,364 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,366 - root - MainThread - end of insertion
+2021-03-01 23:19:07,366 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,368 - root - MainThread - end of insertion
+2021-03-01 23:19:07,368 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,369 - root - MainThread - end of insertion
+2021-03-01 23:19:07,370 - root - MainThread - insert into database: start
+2021-03-01 23:19:07,372 - root - MainThread - end of insertion
+2021-03-01 23:19:07,389 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 23:19:07,408 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 23:19:24,714 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:19:24,773 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:19:24,774 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:19:24,774 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:19:24,819 - werkzeug - Thread-6 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:19:24,862 - werkzeug - Thread-7 - 127.0.0.1 - - [01/Mar/2021 23:19:24] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:19:25,038 - werkzeug - Thread-8 - 127.0.0.1 - - [01/Mar/2021 23:19:25] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,185 - werkzeug - Thread-9 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:19:56,223 - werkzeug - Thread-10 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,246 - werkzeug - Thread-12 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,246 - werkzeug - Thread-11 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,285 - werkzeug - Thread-13 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,321 - werkzeug - Thread-14 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:19:56,523 - werkzeug - Thread-15 - 127.0.0.1 - - [01/Mar/2021 23:19:56] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,437 - werkzeug - Thread-16 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:20:17,481 - werkzeug - Thread-18 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,481 - werkzeug - Thread-19 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,482 - werkzeug - Thread-17 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,526 - werkzeug - Thread-20 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,568 - werkzeug - Thread-21 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:20:17,766 - werkzeug - Thread-22 - 127.0.0.1 - - [01/Mar/2021 23:20:17] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,276 - werkzeug - Thread-23 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:20:50,317 - werkzeug - Thread-26 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,317 - werkzeug - Thread-24 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,318 - werkzeug - Thread-25 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,372 - werkzeug - Thread-27 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,409 - werkzeug - Thread-28 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:20:50,598 - werkzeug - Thread-29 - 127.0.0.1 - - [01/Mar/2021 23:20:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,291 - werkzeug - Thread-30 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:21:19,334 - werkzeug - Thread-31 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,335 - werkzeug - Thread-32 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,335 - werkzeug - Thread-33 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,375 - werkzeug - Thread-34 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,426 - werkzeug - Thread-35 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:21:19,619 - werkzeug - Thread-36 - 127.0.0.1 - - [01/Mar/2021 23:21:19] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:22:30,172 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 23:22:30,234 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 23:22:30,826 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,839 - root - MainThread - end of insertion
+2021-03-01 23:22:30,840 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,842 - root - MainThread - end of insertion
+2021-03-01 23:22:30,842 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,844 - root - MainThread - end of insertion
+2021-03-01 23:22:30,845 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,847 - root - MainThread - end of insertion
+2021-03-01 23:22:30,847 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,849 - root - MainThread - end of insertion
+2021-03-01 23:22:30,850 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,852 - root - MainThread - end of insertion
+2021-03-01 23:22:30,852 - root - MainThread - insert into database: start
+2021-03-01 23:22:30,854 - root - MainThread - end of insertion
+2021-03-01 23:22:30,870 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 23:22:30,888 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 23:22:33,043 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:22:33,097 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:22:33,098 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:22:33,098 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:22:33,145 - werkzeug - Thread-6 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:22:33,180 - werkzeug - Thread-7 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:22:33,365 - werkzeug - Thread-8 - 127.0.0.1 - - [01/Mar/2021 23:22:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,012 - werkzeug - Thread-9 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:23:03,055 - werkzeug - Thread-11 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,056 - werkzeug - Thread-10 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,056 - werkzeug - Thread-12 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,106 - werkzeug - Thread-13 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,131 - werkzeug - Thread-14 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:23:03,323 - werkzeug - Thread-15 - 127.0.0.1 - - [01/Mar/2021 23:23:03] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:23:56,726 - werkzeug - Thread-16 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:23:56,762 - werkzeug - Thread-17 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:23:56,762 - werkzeug - Thread-18 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:23:56,763 - werkzeug - Thread-19 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:23:56,802 - werkzeug - Thread-20 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:23:56,836 - werkzeug - Thread-21 - 127.0.0.1 - - [01/Mar/2021 23:23:56] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:23:57,027 - werkzeug - Thread-22 - 127.0.0.1 - - [01/Mar/2021 23:23:57] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:24:32,874 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 23:24:32,950 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 23:24:33,541 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,556 - root - MainThread - end of insertion
+2021-03-01 23:24:33,557 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,560 - root - MainThread - end of insertion
+2021-03-01 23:24:33,560 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,563 - root - MainThread - end of insertion
+2021-03-01 23:24:33,563 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,565 - root - MainThread - end of insertion
+2021-03-01 23:24:33,565 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,566 - root - MainThread - end of insertion
+2021-03-01 23:24:33,567 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,574 - root - MainThread - end of insertion
+2021-03-01 23:24:33,574 - root - MainThread - insert into database: start
+2021-03-01 23:24:33,576 - root - MainThread - end of insertion
+2021-03-01 23:24:33,593 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 23:24:33,612 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-01 23:24:35,636 - werkzeug - Thread-2 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:24:35,686 - werkzeug - Thread-4 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:24:35,686 - werkzeug - Thread-3 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:24:35,687 - werkzeug - Thread-5 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:24:35,724 - werkzeug - Thread-6 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:24:35,758 - werkzeug - Thread-7 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:24:35,948 - werkzeug - Thread-8 - 127.0.0.1 - - [01/Mar/2021 23:24:35] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:27:17,023 - werkzeug - Thread-9 - 127.0.0.1 - - [01/Mar/2021 23:27:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-03-01 23:27:17,088 - app - Thread-10 - %s Database successfully connected
+2021-03-01 23:27:17,092 - app - Thread-10 - %s database successfully filled
+2021-03-01 23:27:17,144 - werkzeug - Thread-10 - 127.0.0.1 - - [01/Mar/2021 23:27:17] "[35m[1mGET /wiki HTTP/1.1[0m" 500 -
+2021-03-01 23:27:45,626 - werkzeug - Thread-11 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:27:45,667 - werkzeug - Thread-14 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:27:45,668 - werkzeug - Thread-12 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:27:45,668 - werkzeug - Thread-13 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:27:45,701 - werkzeug - Thread-15 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:27:45,796 - werkzeug - Thread-16 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:27:45,842 - werkzeug - Thread-17 - 127.0.0.1 - - [01/Mar/2021 23:27:45] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:28:01,919 - werkzeug - Thread-18 - 127.0.0.1 - - [01/Mar/2021 23:28:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-01 23:28:01,966 - werkzeug - Thread-19 - 127.0.0.1 - - [01/Mar/2021 23:28:01] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-01 23:28:01,967 - werkzeug - Thread-20 - 127.0.0.1 - - [01/Mar/2021 23:28:01] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-01 23:28:01,967 - werkzeug - Thread-21 - 127.0.0.1 - - [01/Mar/2021 23:28:01] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-01 23:28:01,994 - werkzeug - Thread-22 - 127.0.0.1 - - [01/Mar/2021 23:28:01] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-01 23:28:02,078 - werkzeug - Thread-23 - 127.0.0.1 - - [01/Mar/2021 23:28:02] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:28:02,122 - werkzeug - Thread-24 - 127.0.0.1 - - [01/Mar/2021 23:28:02] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-01 23:28:16,714 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-01 23:28:16,785 - werkzeug - MainThread -  * Restarting with stat
+2021-03-01 23:28:17,311 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,321 - root - MainThread - end of insertion
+2021-03-01 23:28:17,322 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,324 - root - MainThread - end of insertion
+2021-03-01 23:28:17,324 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,326 - root - MainThread - end of insertion
+2021-03-01 23:28:17,326 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,328 - root - MainThread - end of insertion
+2021-03-01 23:28:17,329 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,331 - root - MainThread - end of insertion
+2021-03-01 23:28:17,331 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,333 - root - MainThread - end of insertion
+2021-03-01 23:28:17,333 - root - MainThread - insert into database: start
+2021-03-01 23:28:17,334 - root - MainThread - end of insertion
+2021-03-01 23:28:17,345 - werkzeug - MainThread -  * Debugger is active!
+2021-03-01 23:28:17,356 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-02 09:32:12,439 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/bdd.py', reloading
+2021-03-02 09:32:12,494 - werkzeug - MainThread -  * Restarting with stat
+2021-03-02 09:43:10,869 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,897 - root - MainThread - end of insertion
+2021-03-02 09:43:10,898 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,899 - root - MainThread - end of insertion
+2021-03-02 09:43:10,900 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,901 - root - MainThread - end of insertion
+2021-03-02 09:43:10,902 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,903 - root - MainThread - end of insertion
+2021-03-02 09:43:10,904 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,905 - root - MainThread - end of insertion
+2021-03-02 09:43:10,905 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,907 - root - MainThread - end of insertion
+2021-03-02 09:43:10,907 - root - MainThread - insert into database: start
+2021-03-02 09:43:10,908 - root - MainThread - end of insertion
+2021-03-02 09:43:10,925 - werkzeug - MainThread -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-03-02 09:43:10,926 - werkzeug - MainThread -  * Restarting with stat
+2021-03-02 09:43:11,505 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,510 - root - MainThread - end of insertion
+2021-03-02 09:43:11,510 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,512 - root - MainThread - end of insertion
+2021-03-02 09:43:11,512 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,514 - root - MainThread - end of insertion
+2021-03-02 09:43:11,515 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,516 - root - MainThread - end of insertion
+2021-03-02 09:43:11,516 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,518 - root - MainThread - end of insertion
+2021-03-02 09:43:11,518 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,520 - root - MainThread - end of insertion
+2021-03-02 09:43:11,520 - root - MainThread - insert into database: start
+2021-03-02 09:43:11,522 - root - MainThread - end of insertion
+2021-03-02 09:43:11,535 - werkzeug - MainThread -  * Debugger is active!
+2021-03-02 09:43:11,559 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-02 09:58:45,333 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/bdd.py', reloading
+2021-03-02 09:58:45,401 - werkzeug - MainThread -  * Restarting with stat
+2021-03-04 20:26:14,297 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,337 - root - MainThread - end of insertion
+2021-03-04 20:26:14,338 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,341 - root - MainThread - end of insertion
+2021-03-04 20:26:14,341 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,343 - root - MainThread - end of insertion
+2021-03-04 20:26:14,344 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,346 - root - MainThread - end of insertion
+2021-03-04 20:26:14,347 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,348 - root - MainThread - end of insertion
+2021-03-04 20:26:14,348 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,350 - root - MainThread - end of insertion
+2021-03-04 20:26:14,350 - root - MainThread - insert into database: start
+2021-03-04 20:26:14,352 - root - MainThread - end of insertion
+2021-03-04 20:26:14,368 - werkzeug - MainThread -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-03-04 20:26:14,369 - werkzeug - MainThread -  * Restarting with stat
+2021-03-04 20:26:14,993 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,003 - root - MainThread - end of insertion
+2021-03-04 20:26:15,004 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,006 - root - MainThread - end of insertion
+2021-03-04 20:26:15,007 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,010 - root - MainThread - end of insertion
+2021-03-04 20:26:15,010 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,012 - root - MainThread - end of insertion
+2021-03-04 20:26:15,012 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,014 - root - MainThread - end of insertion
+2021-03-04 20:26:15,014 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,015 - root - MainThread - end of insertion
+2021-03-04 20:26:15,015 - root - MainThread - insert into database: start
+2021-03-04 20:26:15,016 - root - MainThread - end of insertion
+2021-03-04 20:26:15,028 - werkzeug - MainThread -  * Debugger is active!
+2021-03-04 20:26:15,053 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-04 20:26:26,802 - werkzeug - Thread-2 - 127.0.0.1 - - [04/Mar/2021 20:26:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-04 20:26:27,049 - werkzeug - Thread-3 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-04 20:26:27,049 - werkzeug - Thread-4 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-04 20:26:27,050 - werkzeug - Thread-5 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-04 20:26:27,563 - werkzeug - Thread-6 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-04 20:26:27,656 - werkzeug - Thread-7 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:26:27,810 - werkzeug - Thread-8 - 127.0.0.1 - - [04/Mar/2021 20:26:27] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,097 - werkzeug - Thread-9 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-04 20:26:53,139 - werkzeug - Thread-10 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,152 - werkzeug - Thread-12 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,152 - werkzeug - Thread-11 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,222 - werkzeug - Thread-13 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,227 - werkzeug - Thread-14 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-04 20:26:53,280 - werkzeug - Thread-15 - 127.0.0.1 - - [04/Mar/2021 20:26:53] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,114 - werkzeug - Thread-16 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-04 20:27:51,155 - werkzeug - Thread-17 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,155 - werkzeug - Thread-18 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,156 - werkzeug - Thread-19 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,213 - werkzeug - Thread-20 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,222 - werkzeug - Thread-21 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-04 20:27:51,250 - werkzeug - Thread-22 - 127.0.0.1 - - [04/Mar/2021 20:27:51] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:28:30,136 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-04 20:28:30,210 - werkzeug - MainThread -  * Restarting with stat
+2021-03-04 20:28:30,747 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,755 - root - MainThread - end of insertion
+2021-03-04 20:28:30,755 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,758 - root - MainThread - end of insertion
+2021-03-04 20:28:30,758 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,760 - root - MainThread - end of insertion
+2021-03-04 20:28:30,760 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,762 - root - MainThread - end of insertion
+2021-03-04 20:28:30,763 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,764 - root - MainThread - end of insertion
+2021-03-04 20:28:30,764 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,766 - root - MainThread - end of insertion
+2021-03-04 20:28:30,766 - root - MainThread - insert into database: start
+2021-03-04 20:28:30,768 - root - MainThread - end of insertion
+2021-03-04 20:28:30,783 - werkzeug - MainThread -  * Debugger is active!
+2021-03-04 20:28:30,801 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-04 20:28:31,092 - werkzeug - Thread-2 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-03-04 20:28:31,153 - werkzeug - Thread-4 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-03-04 20:28:31,153 - werkzeug - Thread-3 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-03-04 20:28:31,157 - werkzeug - Thread-5 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-03-04 20:28:31,210 - werkzeug - Thread-6 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:28:31,215 - werkzeug - Thread-7 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-03-04 20:28:31,243 - werkzeug - Thread-8 - 127.0.0.1 - - [04/Mar/2021 20:28:31] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-03-04 20:29:04,493 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/app.py', reloading
+2021-03-04 20:29:04,543 - werkzeug - MainThread -  * Restarting with stat
+2021-03-04 20:29:05,169 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,177 - root - MainThread - end of insertion
+2021-03-04 20:29:05,177 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,179 - root - MainThread - end of insertion
+2021-03-04 20:29:05,179 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,181 - root - MainThread - end of insertion
+2021-03-04 20:29:05,181 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,183 - root - MainThread - end of insertion
+2021-03-04 20:29:05,183 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,184 - root - MainThread - end of insertion
+2021-03-04 20:29:05,184 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,185 - root - MainThread - end of insertion
+2021-03-04 20:29:05,186 - root - MainThread - insert into database: start
+2021-03-04 20:29:05,187 - root - MainThread - end of insertion
+2021-03-04 20:29:05,197 - werkzeug - MainThread -  * Debugger is active!
+2021-03-04 20:29:05,210 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-03-04 20:30:32,059 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/Docker/flask/bdd.py', reloading
+2021-03-04 20:30:32,104 - werkzeug - MainThread -  * Restarting with stat
+2021-03-04 20:30:32,647 - root - MainThread - insert into database: start

@@ -10,15 +10,16 @@
     {{ super() }}
 {% endblock %}
 {% block content %}
-{% for result in range len(results) %}
-<div class="mainContainer">
-    <div class='articleContainer'>
-        <img class="articleImages" src="{{result[2]}}" alt="" >
-        <h4 class="articleTitres"> {{result[1]}}</h4>
-        <p class="snippets">{{ result[3]}}</p>
-        <p class="articleDates"> {{result[4]}}</p>
+{% for i in range(0, len) %} 
+    <div class="mainContainer">
+        <div class='articleContainer'>
+            <img class="articleImages" src=" {{ results[i][2] }} " alt="" >
+            <h4 class="articleTitres"> {{ results[i][1] }} </h4>
+            <p class="snippets"> {{ results[i][3]}} </p>
+            <p class="articleDates"> {{ results[i][4] }} </p>
+        </div>
     </div>
-</div>
+{% endfor %}
 {% endblock %}
 {% block footer %}
     {{ super() }}

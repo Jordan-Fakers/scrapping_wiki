@@ -4,7 +4,7 @@ from flask import Flask,render_template,url_for,request,redirect,jsonify
 import logging
 import datetime
 import locale
-from bdd import mybdd
+from bdd import Mybdd
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def index():
 @app.route('/wiki')
 def wiki():
     result_dict = []
-    cursor = mybdd.cursor(dictionary=True)
+    cursor = mybdd.cursor()
     sql = "SELECT * FROM articles" 
     cursor.execute(sql)
     app.logger.info('%s Database successfully connected')
@@ -23,8 +23,9 @@ def wiki():
     #     result_dict.append({'id':res['id'],'title':res['title'], 'images':res['image'], 'content':res['content'], 'date':res['date']})
     results = cursor.fetchall()
     app.logger.info('%s database successfully filled')
+    print(results)
     # return jsonify(result_dict)
-    return render_template('index.html', len=len(results), results=results)
+    return render_template('index.html',len=len(results))
     
 
 # @app.route('/mail')
